@@ -1,4 +1,98 @@
+*{
+  box-sizing: border-box;
+}
 body{
   margin: 0;
   padding: 0;
+  font-size: 16px;
+  font-family: sans-serif;
+  background: rgb(155, 13, 13);
+}
+.topbar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 96%; 
+  background-color: #ffffff;
+  border-radius: 15px;
+  margin: 2px 25px;
+  height: 7%;
+}
+.topbar nav{
+  float: right;
+  padding: 10px;
+}
+.topbar nav a{
+  color: #9f9f9f;
+  margin:15px;
+  text-decoration: none;
+
+}
+.topbar nav a:hover, .topbar nav a.active{
+  color: #000000;
+  background-color: rgb(155, 13, 13);
+  border-radius:3px ;
+}
+.topbar .logo{
+  margin: 2px 25px;
+  float: left;
+}
+.logo img{
+  width:60px;
+  height: auto  ;
+  border-radius: 5px;
+}
+.main{
+  float: right;
+  width: 58%;
+  background: #ffffff;
+  padding: 15px 13px;
+  margin-top: 85px;
+  margin-right: 25px;
+  border-radius: 15px;
+  color: #000000;
+}
+h1{
+  text-align: center;
+}
+.sidebar{
+  float: left;
+  width: 37%;
+  background: #ffffff;
+  padding:20px 25px;
+  margin-top: 85px;
+  margin-left: 25px;
+  border-radius: 15px;
+  color: #000000;
+
+}
+.sidebar-title{
+  font-size: 20px;
+  margin: 10px 0;
+  text-align: center;
+}
+.sidebar-title:first-child{
+  margin-top: 0;
+}
+.sidebar a{
+  color: #9f9f9f;
+  text-decoration: none;
+}
+.sidebar ul{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-size: 17px;
+  line-height: 1.8;
+}
+.sidebar a:hover{
+  color: #000000;
+  text-decoration: underline;
+}
+.footer{
+  clear: both;
+}
+fieldset#compteCourant{
+  display: none;
 }
