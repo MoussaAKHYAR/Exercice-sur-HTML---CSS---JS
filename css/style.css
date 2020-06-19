@@ -45,7 +45,7 @@ body{
 }
 .main{
   float: right;
-  width: 58%;
+  width: 55%;
   background: #ffffff;
   padding: 15px 13px;
   margin-top: 85px;
@@ -54,7 +54,7 @@ body{
   color: #000000;
 }
 h1{
-  text-align: center;
+  text-align:center;
 }
 .sidebar{
   float: left;
@@ -96,3 +96,15 @@ h1{
 fieldset#compteCourant{
   display: none;
 }
+/* input:required{
+  background: url("../img/icons8-astérisque-20.png") 98% center no-repeat;
+}
+input:focus :invalid{
+  border-color:#ff0000;
+}
+input:focus:valid{
+  border-color:#56c93f;
+}
+input:valid{
+  background-image: none;
+} */

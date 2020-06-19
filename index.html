@@ -20,82 +20,83 @@
     </div>
   </header>
   <main class="main">
-    <section class="section">
+    <h1 class="formulaire-title">Ouverture de compte</h1>
       <form action="#" method="GET" id="inscription" class="formulaire">
-        <h1 class="formulaire-title">Ouverture de compte client</h1>
-        <div>
-          <label for="numeroCompte">Numéro du compte : </label>
-          <input type="text" name="numeroCompte" id="numeroCompte" required />
-        </div>
-        <div>
-          <label for="numeroAgence">Numéro de l'agence : </label>
-          <input type="text" name="numeroAgence" id="numeroAgence" required />
-        </div>
-        <div>
-          <label for="cleRib">Clé Rib : </label>
-          <input type="text" name="cleRib" id="cleRib" required />
-        </div>
-        <div>
-          <label for="nom">Nom : </label>
-          <input type="text" name="nom" id="nom" required />
-        </div>
-        <div>
-          <label for="prenom">Prénom : </label>
-          <input type="text" name="prenom" id="prenom" required />
-        </div>
-        <div>
-          <label for="adresse">Adresse : </label>
-          <input type="text" name="adresse" id="adresse" required />
-        </div>
-        <div>
-          <label for="email">Email : </label>
-          <input type="email" name="email" id="email" required />
-        </div>
-        <div>
-          <label for="telephone">Téléphone : </label>
-          <input type="tel" name="telephone" id="telephone" required />
-        </div>
-        <div>
-          <label for="salaireActuel">Salaire actuel : </label>
-          <input type="text" name="salaireActuel" id="salaireActuel" required />
-        </div>
-        <div>
-          <label for="profession">Profession : </label>
-          <input type="text" name="profession" id="profession" required />
-        </div>
-        <div>
-          <label for="typeCompte">Type de compte : </label>
-          <select name="typeCompte" id="typeCompte" required >
-            <option value="">Choisir le type de compte</option>
-            <option value="compteEpargne">Compte Epargne Simple et Xeewel </option>
-            <option value="compteCourant">Compte Courant</option>
-            <option value="compteBloque">Compte Bloqué</option>
-          </select>
-        </div>
-        <fieldset id="compteCourant">
-          <legend>Les coordonnées de votre employeur</legend>
+        <fieldset>
+          <legend>Saisir les informations du client</legend>
           <div>
-            <label for="numeroIdentification">Numéro d'identification : </label>
-            <input type="text" name="numeroIdentification" id="numeroIdentification" required />
+            <label for="numeroCompte">Numéro du compte </label>
+            <input type="text" name="numeroCompte" id="numeroCompte" required />
           </div>
           <div>
-            <label for="raisonSocial">Raison social : </label>
-            <input type="text" name="raisonSocial" id="raisonSocial" required />
+            <label for="numeroAgence">Numéro de l'agence </label>
+            <input type="text" name="numeroAgence" id="numeroAgence" required />
           </div>
           <div>
-            <label for="nomEmployeur">Nom : </label>
-            <input type="text" name="nomEmployeur" id="nomEmployeur" required />
+            <label for="cleRib">Clé Rib </label>
+            <input type="text" name="cleRib" id="cleRib" required />
           </div>
           <div>
-            <label for="adresseEmployeur">Adresse : </label>
-            <input type="text" name="adresseEmployeur" id="adresseEmployeur" required />
+            <label for="nom">Nom </label>
+            <input type="text" name="nom" id="nom" required />
           </div>
-        </fieldset>
-        <div>
-          <input type="submit" value="Envoyer" />
-        </div>
+          <div>
+            <label for="prenom">Prénom </label>
+            <input type="text" name="prenom" id="prenom" required />
+          </div>
+          <div>
+            <label for="adresse">Adresse </label>
+            <input type="text" name="adresse" id="adresse" required />
+          </div>
+          <div>
+            <label for="email">Email </label>
+            <input type="email" name="email" id="email" required />
+          </div>
+          <div>
+            <label for="telephone">Téléphone </label>
+            <input type="tel" name="telephone" id="telephone" required />
+          </div>
+          <div>
+            <label for="salaireActuel">Salaire actuel </label>
+            <input type="text" name="salaireActuel" id="salaireActuel" required />
+          </div>
+          <div>
+            <label for="profession">Profession </label>
+            <input type="text" name="profession" id="profession" required />
+          </div>
+          <div>
+            <label for="typeCompte">Type de compte </label>
+            <select name="typeCompte" id="typeCompte" required >
+              <option value="">Choisir le type de compte</option>
+              <option value="compteEpargne">Compte Epargne Simple et Xeewel </option>
+              <option value="compteCourant">Compte Courant</option>
+              <option value="compteBloque">Compte Bloqué</option>
+            </select>
+          </div>
+          <fieldset id="compteCourant">
+            <legend>Les coordonnées de son employeur</legend>
+            <div>
+              <label for="numeroIdentification">Numéro d'identification </label>
+              <input type="text" name="numeroIdentification" id="numeroIdentification" required />
+            </div>
+            <div>
+              <label for="raisonSocial">Raison social </label>
+              <input type="text" name="raisonSocial" id="raisonSocial" required />
+            </div>
+            <div>
+              <label for="nomEmployeur">Nom </label>
+              <input type="text" name="nomEmployeur" id="nomEmployeur" required />
+            </div>
+            <div>
+              <label for="adresseEmployeur">Adresse </label>
+              <input type="text" name="adresseEmployeur" id="adresseEmployeur" required />
+            </div>
+          </fieldset>
+          <div>
+            <input type="submit" value="Envoyer" />
+          </div>
+      </fieldset>
       </form>
-    </section>
   </main>
   <aside class="sidebar">
     <h4 class="sidebar-title">Responsable Compte</h4>
