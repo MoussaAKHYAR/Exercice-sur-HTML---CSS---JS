@@ -6,7 +6,10 @@ body{
   padding: 0;
   font-size: 16px;
   font-family: sans-serif;
-  background: rgb(155, 13, 13);
+  background-image:linear-gradient(60deg, rgba(0, 0, 0, 0.7), rgba(255, 1, 1, 0.7),rgba(0, 0, 0, 0.7));
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
 }
 .topbar{
   position: fixed;
@@ -27,7 +30,6 @@ body{
   color: #9f9f9f;
   margin:15px;
   text-decoration: none;
-
 }
 .topbar nav a:hover, .topbar nav a.active{
   color: #000000;
@@ -96,7 +98,63 @@ h1{
 fieldset#compteCourant{
   display: none;
 }
-/* input:required{
+.formulaire{
+  width: 500px;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  margin-left: 100px;
+  background:#ffffff;
+  color: #000000;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #9f9f9f;
+}
+.formulaire-title{
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.division{
+  margin-bottom: 3px;
+  padding: 0;
+}
+.formulaire input, select{
+  border: none;
+  border-bottom: 1px solid #000000;
+  background: transparent;
+  outline: none;
+  height: 25px;
+  color: #000000;
+  font-size: 15px;
+  width: 100%;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+input[type="submit"]{
+  float: left ;
+  margin-top: 5px;
+  border: 1px solid darkgrey;
+  border-radius: 5px;
+  color: #ffffff;
+  background: green;
+  width: 30%;
+}
+input[type="reset"]{
+  float: right ;
+  margin-top: 5px;
+  border: 1px solid darkgrey;
+  border-radius: 5px;
+  color: #ffffff;
+  background: rgb(240, 0, 0);
+  width: 30%;
+}
+legend{
+  text-align: center;
+}
+
+input:required{
   background: url("../img/icons8-astérisque-20.png") 98% center no-repeat;
 }
 input:focus :invalid{
@@ -107,4 +165,11 @@ input:focus:valid{
 }
 input:valid{
   background-image: none;
-} */
+}
+.avatar{
+  float: right;
+  width: 45px;
+  height: auto;
+  border-radius: 50%;
+  margin: -9px 25px;
+}

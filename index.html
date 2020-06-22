@@ -11,12 +11,10 @@
 <body>
   <header class="topbar">
     <nav>
-      <a href="#" class="active">Home</a>
-      <a href="#">About</a>
-      <a href="#">Contact</a>
+      <a href="#"><img src="img/login.png" alt="login" class="avatar"></a>
     </nav>
     <div class="logo">
-      <a href="#" title="Banque du peuple"><img src="img/logo.png " title="Banque du peuple" alt=""></a>
+      <a href="#" title="Banque du peuple"><img src="img/logo.png " title="Banque du peuple" alt="Banque du peuple"></a>
     </div>
   </header>
   <main class="main">
@@ -24,48 +22,44 @@
       <form action="#" method="GET" id="inscription" class="formulaire">
         <fieldset>
           <legend>Saisir les informations du client</legend>
-          <div>
+          <div class="division">
             <label for="numeroCompte">Numéro du compte </label>
             <input type="text" name="numeroCompte" id="numeroCompte" required />
           </div>
-          <div>
+          <div class="division">
             <label for="numeroAgence">Numéro de l'agence </label>
             <input type="text" name="numeroAgence" id="numeroAgence" required />
           </div>
-          <div>
-            <label for="cleRib">Clé Rib </label>
-            <input type="text" name="cleRib" id="cleRib" required />
-          </div>
-          <div>
+          <div class="division">
             <label for="nom">Nom </label>
             <input type="text" name="nom" id="nom" required />
           </div>
-          <div>
+          <div class="division">
             <label for="prenom">Prénom </label>
             <input type="text" name="prenom" id="prenom" required />
           </div>
-          <div>
+          <div class="division">
             <label for="adresse">Adresse </label>
             <input type="text" name="adresse" id="adresse" required />
           </div>
-          <div>
+          <div class="division">
             <label for="email">Email </label>
             <input type="email" name="email" id="email" required />
           </div>
-          <div>
+          <div class="division">
             <label for="telephone">Téléphone </label>
             <input type="tel" name="telephone" id="telephone" required />
           </div>
-          <div>
+          <div class="division">
             <label for="salaireActuel">Salaire actuel </label>
             <input type="text" name="salaireActuel" id="salaireActuel" required />
           </div>
-          <div>
+          <div class="division">
             <label for="profession">Profession </label>
             <input type="text" name="profession" id="profession" required />
           </div>
-          <div>
-            <label for="typeCompte">Type de compte </label>
+          <div class="division">
+            <label for="typeCompte" >Type de compte </label>
             <select name="typeCompte" id="typeCompte" required >
               <option value="">Choisir le type de compte</option>
               <option value="compteEpargne">Compte Epargne Simple et Xeewel </option>
@@ -75,25 +69,26 @@
           </div>
           <fieldset id="compteCourant">
             <legend>Les coordonnées de son employeur</legend>
-            <div>
+            <div class="division">
               <label for="numeroIdentification">Numéro d'identification </label>
               <input type="text" name="numeroIdentification" id="numeroIdentification" required />
             </div>
-            <div>
+            <div class="division">
               <label for="raisonSocial">Raison social </label>
               <input type="text" name="raisonSocial" id="raisonSocial" required />
             </div>
-            <div>
+            <div class="division">
               <label for="nomEmployeur">Nom </label>
               <input type="text" name="nomEmployeur" id="nomEmployeur" required />
             </div>
-            <div>
+            <div class="division">
               <label for="adresseEmployeur">Adresse </label>
               <input type="text" name="adresseEmployeur" id="adresseEmployeur" required />
             </div>
           </fieldset>
-          <div>
+          <div class="division">
             <input type="submit" value="Envoyer" />
+            <input type="reset" value="Annuler" />
           </div>
       </fieldset>
       </form>
@@ -107,12 +102,8 @@
     </ul>
   </aside>
   <footer class="footer">
-    Copyright 2020
   </footer>
 
-  <script type="text/javascript" src="js/controle.js"></script>
-  <!-- <script>
-    console.log(document.getElementById('typeCompte'))
-  </script> -->
+<script type="text/javascript" src="js/controle.js"></script>
 </body>
 </html>
